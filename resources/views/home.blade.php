@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="table-responsive text-center">
+<div class="container">
+    <div class="table-responsive text-center">
         <table class="table table-borderless" id="table">
             <thead>
                 <tr>
@@ -107,6 +108,7 @@
             </div>
         </div>
     </div>
+</div>
     <script>
     $(document).ready(function() {
         $('#table').DataTable();
